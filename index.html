@@ -6,29 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>component library</title>
+    <!-- css way-1 style tag
+        <style>
+        body{color:red;}
+    </style>-->
+    <!-- Third way of doing css: external link -->
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 
 <body>
-    <h1>welcome to ibru's component library</h1>
-    <h3> Hi im Ibru. Currently im attendeing a bootcamp on fullstack webdevelopment and I want to make a library 
+    <!--<h1 style="color:red" >welcome to ibru's component library</h1>-->
+    <h1 id="lib_header">welcome to ibru's component library</h1>
+    <h3 class="para">Hi im Ibru. Currently im attendeing a bootcamp on fullstack webdevelopment and I want to make a library 
         which would make all my projects look good and consistent.
     </h3>
     <hr>
     <h2>@typography</h2>
     <h1>This is the biggest heading</h1>
     <h2>This is the second biggest</h2>
-    <p>Let me show you the normal text. This is free flowing and will wrap at the end
+    <p class="para">Let me show you the normal text. This is free flowing and will wrap at the end
         like a prargraph.
     </p>
-    <small>This is relatively smaller text</small>
+    <small class="para">This is relatively smaller text</small>
     <hr>
     <h2>@containers</h2>
 
     <h3>fluid container</h3>
-    <dev>This is a fluid container and it will go till the end of the page</dev>
+    <dev class="para">This is a fluid container and it will go till the end of the page</dev>
 
     <h3>center container</h3>
-    <dev>This is a centered container and it will go till the specified width</dev>
+    <dev class="para">This is a centered container and it will go till the specified width</dev>
     <hr>
     <h2>@links</h2>
 
