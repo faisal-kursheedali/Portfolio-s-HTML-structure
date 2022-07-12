@@ -7,3 +7,11 @@ body{
     padding-left:1rem;
     padding-right:1rem;
 }
+/*.container-fluid{
+    max-width: 600px;
+    margin: auto;
+}*/
+.container-center{
+    max-width: 600px; 
+    margin: auto;/* it will make it center*/
+}
