@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+:root {
+    --primary-color:#2563eb
+    ;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -6,6 +11,9 @@ body{
 .container{
     padding-left:1rem;
     padding-right:1rem;
+}
+hr{
+    margin: 2rem 0rem;
 }
 /*.container-fluid{
     max-width: 600px;
@@ -15,3 +23,38 @@ body{
     max-width: 600px; 
     margin: auto; /* it will make it center*/
 }  
+/* links */
+.youtube-link{
+    background-color: var(--primary-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+.instagram-link{
+    background-color:white ;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border:1px solid var(--primary-color);
+    color: var(--primary-color) ;
+}
+/* (note) 
+here look into BEM naming convention for CSS */
+
+/* lists */
+.list-non-bullets{
+    list-style:none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* nav */
+
+
+
+
+
+
