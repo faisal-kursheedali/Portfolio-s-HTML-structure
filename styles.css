@@ -52,6 +52,39 @@ here look into BEM naming convention for CSS */
 }
 
 /* nav */
+.navigation{
+    background-color:var(--primary-color);
+    color:white;
+    padding: 1rem 2rem;
+    border-bottom-left-radius: 3rem;
+}
+.navigation .nav{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.navigation .inline-list{
+    text-align:right;
+}
+.navigation .list-item-inline{
+    list-style: none;
+}
+.navigation .link{
+    color:white;
+    text-decoration: none;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
