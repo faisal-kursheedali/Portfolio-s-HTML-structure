@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 :root {
-    --primary-color:#2563eb
-    ;
+    --primary-color:#2563eb;
+    --secondary-color:#94a3b8;
 }
 
 body{
@@ -75,11 +75,28 @@ here look into BEM naming convention for CSS */
 .navigation .link-active{
     font-weight: bold;
 }
-
-
-
-
-
+/* header */
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    padding-top: 1rem;
+    max-width: 350px; 
+    margin:auto;
+    display: block;
+}
+.hero .hero-heading{
+    padding-top: 1rem;
+    font-size: 2rem;
+    color:var(--secondary-color);
+    text-align: center;
+}
+.hero .hero-heading .name{
+    color:black;
+}
+.hero .hero-heading .work{
+    color:var(--primary-color)
+}
 
 
 
