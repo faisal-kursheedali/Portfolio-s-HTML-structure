@@ -1,110 +1,156 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 :root {
-    --primary-color:#2563eb;
-    --secondary-color:#94a3b8;
+    --primary-color: #2563eb;
+    --secondary-color: #94a3b8;
+    --grey-color: #94a3b8;
+
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
+
 /* container */
-.container{
-    padding-left:1rem;
-    padding-right:1rem;
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
-hr{
+
+hr {
     margin: 2rem 0rem;
 }
+
 /*.container-fluid{
     max-width: 600px;
     margin: auto;
 }*/
- .container-center{ 
-    max-width: 600px; 
-    margin: auto; /* it will make it center*/
-}  
+.container-center {
+    max-width: 600px;
+    margin: auto;
+    /* it will make it center*/
+}
+
 /* links */
-.youtube-link{
+.youtube-link {
     background-color: var(--primary-color);
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     color: white;
 }
-.instagram-link{
-    background-color:white ;
+
+.instagram-link {
+    background-color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    border:1px solid var(--primary-color);
-    color: var(--primary-color) ;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
+
 /* (note) 
 here look into BEM naming convention for CSS */
 
 /* lists */
-.list-non-bullets{
-    list-style:none;
+.list-non-bullets {
+    list-style: none;
 }
-.list-item-inline{
+
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 }
 
 /* nav */
-.navigation{
-    background-color:var(--primary-color);
-    color:white;
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
     padding: 1rem 2rem;
     border-bottom-left-radius: 3rem;
 }
-.navigation .nav{
+
+.navigation .nav {
     font-weight: bold;
     font-size: 1rem;
 }
-.navigation .inline-list{
-    text-align:right;
+
+.navigation .inline-list {
+    text-align: right;
 }
-.navigation .list-item-inline{
+
+.navigation .list-item-inline {
     list-style: none;
 }
-.navigation .link{
-    color:white;
+
+.navigation .link {
+    color: white;
     text-decoration: none;
 }
-.navigation .link-active{
+
+.navigation .link-active {
     font-weight: bold;
 }
+
 /* header */
-.hero{
+.hero {
     padding: 2rem;
 }
-.hero .hero-img{
+
+.hero .hero-img {
     padding-top: 1rem;
-    max-width: 350px; 
-    margin:auto;
+    max-width: 350px;
+    margin: auto;
     display: block;
 }
-.hero .hero-heading{
+
+.hero .hero-heading {
     padding-top: 1rem;
     font-size: 2rem;
-    color:var(--secondary-color);
+    color: var(--secondary-color);
     text-align: center;
 }
-.hero .hero-heading .name{
-    color:black;
-}
-.hero .hero-heading .work{
-    color:var(--primary-color)
+
+.hero .hero-heading .name {
+    color: black;
 }
 
+.hero .hero-heading .work {
+    color: var(--primary-color)
+}
 
+/* section */
+.section {
+    padding: 2rem;
+}
 
+.section h1 {
+    text-align: center;
+}
 
+.wh {
+    background-color: white;
+}
 
+.gr {
+    background-color: var(--grey-color);
+}
 
+/* footer */
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
 
-
-
-
-
+.footer .link {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
