@@ -32,8 +32,8 @@ hr {
     /* it will make it center*/
 }
 
-/* links */
-.youtube-link {
+/* link-buttons */
+.Primary-link {
     background-color: var(--primary-color);
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -41,7 +41,7 @@ hr {
     color: white;
 }
 
-.instagram-link {
+.Secondary-link {
     background-color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -143,8 +143,8 @@ here look into BEM naming convention for CSS */
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-    border-bottom-left-radius: 3rem;
-    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 .footer .link {
