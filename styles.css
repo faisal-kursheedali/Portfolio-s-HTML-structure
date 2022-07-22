@@ -32,7 +32,7 @@ hr {
     /* it will make it center*/
 }
 
-/* link-buttons */
+/* link-buttons & buttons */
 .Primary-link {
     background-color: var(--primary-color);
     text-decoration: none;
@@ -49,6 +49,22 @@ hr {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
 }
+.primary-button {
+    background-color: var(--primary-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+.secondary-button {
+    background-color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
 
 /* (note) 
 here look into BEM naming convention for CSS */
