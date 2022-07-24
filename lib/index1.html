@@ -15,12 +15,37 @@
             margin: auto;
             padding:1rem;
         }
+        #btn-translate{
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+            display:block;
+            padding: 1rem;
+        }
+        div{
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+            display:block;
+            padding: 1rem;
+        }
+        #output-text{
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            max-width: 600px;
+            margin: auto;
+            padding: 1rem;
+            }
+
     </style>
 </head>
 <body>
     <h1> talk banana</h1>
-    <textarea id="text-input" placeholder="Enter your'e sentence here to convert to minion's language..."></textarea>
+    <textarea id="input-text" placeholder="Enter your'e sentence here to convert to minion's language..."></textarea>
     <button id="btn-translate" class="primary-button">TRANSLATE</button>
+    <div style="font-size:larger">Output will come here 👇</div>
+    <div id="output-text"></div>
     <script src="./app.js" typ="text/javascript" ></script>
 </body>
 </html>
