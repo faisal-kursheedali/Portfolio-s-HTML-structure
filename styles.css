@@ -161,8 +161,7 @@ here look into BEM naming convention for CSS */
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 3rem;
 }
 
 .footer .link {
