@@ -54,7 +54,7 @@ hr {
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    color: white;
+    /* color: white; */
 }
 .secondary-button {
     background-color: white;
@@ -162,7 +162,6 @@ here look into BEM naming convention for CSS */
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
-
 .footer .link {
     color: white;
     text-decoration: none;
