@@ -49,6 +49,7 @@ hr {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
 }
+
 .primary-button {
     background-color: var(--primary-color);
     text-decoration: none;
@@ -56,6 +57,7 @@ hr {
     border-radius: 0.5rem;
     /* color: white; */
 }
+
 .secondary-button {
     background-color: white;
     text-decoration: none;
@@ -162,15 +164,18 @@ here look into BEM naming convention for CSS */
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
+
 .footer .link {
     color: white;
     text-decoration: none;
     padding: 1rem;
 }
-.footer .footer-header{
+
+.footer .footer-header {
     font-weight: bold;
     font-size: large;
 }
-.footer ul{
+
+.footer ul {
     padding-inline-start: 0px;
 }
