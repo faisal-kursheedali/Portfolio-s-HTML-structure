@@ -78,7 +78,7 @@ here look into BEM naming convention for CSS */
 
 .list-item-inline {
     display: inline;
-    padding: 0rem 0rem;
+    padding: 0rem 0.5rem;
 }
 
 /* nav */
@@ -167,7 +167,7 @@ here look into BEM naming convention for CSS */
 .footer .link {
     color: white;
     text-decoration: none;
-    padding: 1rem;
+    padding: 1rem 0rem;
 }
 
 .footer .footer-header {
