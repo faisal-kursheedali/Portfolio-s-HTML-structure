@@ -25,3 +25,4 @@ var welcomemessage =
   username;
 //output
 alert(welcomemessage);
+window.location.href = "./home.html";
